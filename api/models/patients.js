@@ -1,6 +1,6 @@
-const mongoose = require('mongoodr');
+const mongoose = require('mongoose');
 
-const Patients = mongoose.model('Friends', {
+const Patients = mongoose.model('Patients', {
     fname: {
         type: String,
         required: true
